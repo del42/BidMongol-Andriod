@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+     <Button
+         android:id="@+id/next"
+         android:layout_width="88dp"
+         android:layout_height="wrap_content"
+         android:layout_x="112dp"
+         android:layout_y="216dp"
+         android:text="NEXT"
+         android:textSize="14dp" />
+
+     <TextView
+         android:id="@+id/header_customer"
+         android:layout_width="wrap_content"
+         android:layout_height="40dp"
+         android:layout_marginTop="10dp"
+         android:layout_x="4dp"
+         android:layout_y="9dp"
+         android:focusableInTouchMode="true"
+         android:hapticFeedbackEnabled="true"
+         android:height="20dp"
+         android:text="Please select from following and click NEXT."
+         android:textColor="#ffa500"
+         android:textSize="16dp" />
+
+     <CheckBox
+         android:id="@+id/airCheckBok"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="43dp"
+         android:layout_y="42dp"
+         android:text="Air Cargo"
+         android:textColor="#C0C0C0"
+         android:textSize="14dp" />
+
+     <CheckBox
+         android:id="@+id/carCheckBox"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="43dp"
+         android:layout_y="90dp"
+         android:text="Ground Cargo"
+         android:textColor="#C0C0C0"
+         android:textSize="14dp" />
+
+     <CheckBox
+         android:id="@+id/groundCheckBox"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="43dp"
+         android:layout_y="137dp"
+         android:text="Car Shipment"
+         android:textColor="#C0C0C0"
+         android:textSize="14dp" />
+    
+</AbsoluteLayout>

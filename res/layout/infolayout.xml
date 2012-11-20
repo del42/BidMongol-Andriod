@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#ffffff"
+    android:orientation="vertical" android:visibility="visible">
+
+     <DatePicker
+         android:id="@+id/pickupdate"
+         style="@android:style/TextAppearance.Small"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="28dp"
+         android:layout_y="43dp"
+         android:clickable="true"
+         android:startYear="2012" />
+
+     <TextView
+         android:id="@+id/header_customer_info"
+         android:layout_width="wrap_content"
+         android:layout_height="40dp"
+         android:layout_marginTop="10dp"
+         android:layout_x="26dp"
+         android:layout_y="12dp"
+         android:focusableInTouchMode="true"
+         android:hapticFeedbackEnabled="true"
+         android:height="20dp"
+         android:text="WHEN, WHOM, WHERE can we pick up?"
+         android:textColor="#ffa500"
+         android:textSize="16dp" />
+
+     <TextView
+         android:id="@+id/name_customer"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="32dp"
+         android:layout_y="211dp"
+         android:text="Name" />
+
+     <TextView
+         android:id="@+id/phone_customer"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="32dp"
+         android:layout_y="264dp"
+         android:text="Phone" />
+
+     <TextView
+         android:id="@+id/address_customer"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="33dp"
+         android:layout_y="318dp"
+         android:text="Address" />
+
+     <EditText
+         android:id="@+id/name_cus_txt"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="94dp"
+         android:layout_y="261dp"
+         android:ems="10"
+         android:inputType="phone" />
+
+     <EditText
+         android:id="@+id/phone_cus_txt"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="94dp"
+         android:layout_y="206dp"
+         android:ems="10"
+         android:inputType="textPersonName" >
+
+         <requestFocus />
+     </EditText>
+
+     <EditText
+         android:id="@+id/address_cus_txt"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="94dp"
+         android:layout_y="316dp"
+         android:ems="10"
+         android:inputType="textPostalAddress" />
+
+     <Button
+         android:id="@+id/submit_cargo"
+         style="@android:style/Widget"
+         android:layout_width="88dp"
+         android:layout_height="wrap_content"
+         android:layout_x="114dp"
+         android:layout_y="397dp"
+         android:text="SUBMIT" />
+     
+</AbsoluteLayout>
